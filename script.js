@@ -7,15 +7,20 @@ function fetchBill() {
 
   // 🔹 Mock database
   const billDatabase = {
-    "8800392483": {
-      name: "John",
-      amount: 45451441,
-      },
-    "9123456789": {
-      name: "Priya Sharma",
-      amount: 300.00,
-      dueDate: "2025-09-05"
-    }
+    "8800392483": {    name: "adi", amount: 100, },
+    "8860614053": {    name: "satpal", amount: 200, },
+     "7290900267": {    name: "JAI", amount: 582, },
+     "9811397271": {    name: "KHUSH", amount: 892, },
+     "8800392483": {    name: "John", amount: 354, },
+     "8800392483": {    name: "John", amount: 782, },
+     "8800392483": {    name: "John", amount: 45451441, },
+     "8800392483": {    name: "John", amount: 45451441, },
+     "8800392483": {    name: "John", amount: 45451441, },
+     "8800392483": {    name: "John", amount: 45451441, },
+     "8800392483": {    name: "John", amount: 45451441, },
+     "8800392483": {    name: "John", amount: 45451441, },
+     "8800392483": {    name: "John", amount: 45451441, },
+    "8800392483": {    name: "John", amount: 45451441, },    
   };
 
   const bill = billDatabase[mobile];
