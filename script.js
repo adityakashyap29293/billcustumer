@@ -9,7 +9,7 @@ function fetchBill() {
   const billDatabase = {
     "8800392483": {
       name: "John",
-      amount: 450.75,
+      amount: 45451441,
       dueDate: "2025-09-10"
     },
     "9123456789": {
@@ -32,5 +32,6 @@ function fetchBill() {
     document.getElementById('billSection').classList.add('hidden');
   }
 }
+
 
 
