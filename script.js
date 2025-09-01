@@ -7,7 +7,7 @@ function fetchBill() {
 
   // 🔹 Mock database
   const billDatabase = {
-    "9876543210": {
+    "8800392483": {
       name: "John Doe",
       amount: 450.75,
       dueDate: "2025-09-10"
@@ -32,3 +32,4 @@ function fetchBill() {
     document.getElementById('billSection').classList.add('hidden');
   }
 }
+
